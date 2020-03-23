@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+     <van-button type="primary">el-button</van-button>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -16,3 +17,9 @@ export default {
   },
 };
 </script>
+
+<style lang="less" scoped>
+.home {
+  .ellipsis; // assets/css/mixin中定义的
+}
+</style>

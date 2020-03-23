@@ -1,5 +1,17 @@
 # vue-h5
 
+### css
+
+```
+使用了less 修改全局变量在 src/assets/variables 和全局css混入方法src/assets/mixin
+```
+
+### 时间处理
+
+```
+默认使用dayjs
+```
+
 ## Project setup
 ```
 npm install
@@ -7,7 +19,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
